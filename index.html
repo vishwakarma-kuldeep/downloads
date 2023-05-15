@@ -38,7 +38,7 @@
 
         let data = device + ' ' + ipAddr.ip
         try {
-          let res = await fetch('http://localhost:8080/api/download', {
+          let res = await fetch('https://mytesting-server.onrender.com/api/download', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
