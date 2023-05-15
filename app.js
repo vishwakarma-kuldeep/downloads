@@ -8,7 +8,7 @@ var logger = require("morgan");
 var multer = require("multer");
 
 // Import your routes here
-const downloadRouter = require('./route')
+const downloadRouter = require('./routes/route')
 // Import db connection
 const conn = require("./lib/db");
 conn.connectDatabase();
